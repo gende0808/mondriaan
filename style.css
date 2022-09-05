@@ -1,0 +1,44 @@
+#container {
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+#box1{
+    width: 8vw;
+    height: 8vw;
+   border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#box2{
+    width: 8vw;
+    height: 24vw;
+    border-right: 4px solid black;
+}
+#box3{
+    width: 8vw;
+    height: 8vw;
+    border-top: 4px solid  black;
+    border-right: 4px solid black;
+    float: left;
+}
+
+#box4{
+    width: 8vw;
+    height: 8vw;
+    border-top: 4px solid  black;
+    border-right: 4px solid black;
+    float: left;
+}
+.allBoxes{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: #0000e8;
+}
